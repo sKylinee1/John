@@ -322,7 +322,6 @@ body {
 .navbar img {
   width: 60px;
   height: 60px;
-  margin: 0 10px;
 }
 
 .navbar h1 {
@@ -384,6 +383,24 @@ body {
   color: #666;
   line-height: 1.6;
 }
+
+
+.logo-container,
+.second-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  order: 1; 
+}
+
+.second-image-container {
+  order: 2; 
+}
+
+
 
 
 
