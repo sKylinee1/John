@@ -384,6 +384,23 @@ body {
   line-height: 1.6;
 }
 
+/* Modified styles for image centering */
+.section-image {
+  text-align: center; /* Center images horizontally */
+  margin: 10px 0; /* Add some margin around the image container */
+}
+
+.section-image img {
+  max-width: 100%; /* Make sure images do not exceed the width of the container */
+  height: auto; /* Maintain the aspect ratio of the images */
+  display: block; /* Remove extra space below the images */
+  margin: 0 auto; /* Center images */
+}
+
+/* Add margin between images */
+.section-image img + img {
+  margin-top: 10px; /* Add space between the two images */
+}
 
 .logo-container,
 .second-image-container {
@@ -397,7 +414,7 @@ body {
 }
 
 .second-image-container {
-  order: 2; 
+  order: 2;
 }
 
 
